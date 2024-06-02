@@ -29,3 +29,7 @@ Copy code
 
 - Extensive use of CSS for layout, styling, and responsiveness.
 - Used filter: blur() for background effects and drop-shadow for image shadows.
+
+
+## Note : I am apologetic for not being able to complete the complete assignment, this pertains mostly to the fact that as mentioned in my application earlier, I currently have my end semester exams starting from Monday ie 3 June 2024. I had only 3 hours to complete the entire assignment.Kindly Hoping you could either consider letting me retake the assignment after 9th June so I could perform to full potential or consider taking an interview of sorts to help me proove my true potential for the same.
+ 
