@@ -1,0 +1,629 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Clash Display', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+
+/* Permanent */
+a{
+    text-decoration: none;
+}
+.star
+{
+
+    background-image: url(imgs/star.png);
+    position:absolute;
+    width: 64px;
+    height: 64px;
+    left: 1300px;
+   
+    top: 8%;
+    
+}
+.star2
+{
+    background-image: url(imgs/star2.png);
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 116px;
+    left: 79.94px;
+
+
+}
+
+/* navigation bar */
+.nav
+{
+    height: 60px;
+    width: 1090px;
+    display: flex;
+    margin-left:175px ;
+    margin-right: 175px;
+    margin-top: 40px;
+}
+
+.nav-left
+{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+.logo
+{
+    background-image: url(imgs/image.png);
+    background-size: contain;
+    height: 34.41px;
+    width: 117px;
+}
+.nav-ops
+{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 24px; 
+}
+
+.nav-ops a{
+    color: #000000;  
+}
+
+.nav-ops a:hover,.nav-ops a.active
+{
+    color: #FF5555;
+    font-weight: 700;
+}
+
+.download
+{
+    width: 180px;
+    height: 60px;
+    top: 40px;
+    left: 1085px;
+    gap: 0px;
+    border-radius: 4px;
+    border: #000000;
+    opacity: 0px;
+
+    background-color: #000000;
+    color: white;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+
+    margin-left: 368px;
+}
+
+/* hero */
+
+.hero h1{
+    z-index: 1;
+    width: 618px;
+    height: 128px;
+    top: 215px;
+    left: 175px;
+   position: absolute;
+
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+
+}
+
+.ellipse1
+{
+    position: absolute;
+    width: 284px;
+    height: 153px;
+    top: 152px;
+    left: 374px;
+    z-index: 0;
+
+    background: #FF5555;
+    filter: blur(40px);
+}
+
+.ellipse2
+{
+    position: absolute;
+    width: 290px;
+    height: 153px;
+    left: 341px;
+    top: 229px;
+
+    background: #FDE598;
+    filter: blur(40px);
+    z-index: -1;
+}
+
+.hero p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+    position: absolute;
+    width: 630px;
+    height: 56px;
+    top: 367px;
+    left: 175px;
+    opacity: 50%;
+}
+
+.hero .ellipse-group
+{
+    width: 383.17px;
+    height: 551.56px;
+    position: absolute;
+    top: 115.94px;
+    right: 68px;
+    border: 1.5px solid black; 
+    transform: rotate(135deg);
+    border-radius: 50%; 
+}
+
+.ellipse-group2
+{
+    position:absolute;
+    width: 383.17px;
+    height: 551.56px;
+    top: 148.21px;
+    right: 96.73px;
+    border: 1.5px solid black; 
+    transform: rotate(135deg);
+    border-radius: 50%; 
+    
+}
+
+.ellipse-group3
+{
+    position:absolute;
+    width: 383.17px;
+    height: 551.56px;
+    top: 180.47px;
+    right: 120px;
+   
+    
+    border: 1.5px solid black; 
+    transform: rotate(135deg);
+    border-radius: 50%; 
+}
+
+.ellipse3
+{
+
+    position: absolute;
+    width: 397.43px;
+    height: 214.11px;
+
+
+    top: 549.42px;
+    left: 972.24px;
+
+
+    background: #FF5555;
+    filter: blur(51.5773px);
+    transform: rotate(150deg);
+}
+
+
+.group-5
+{
+    width: 374px;
+    height: 60px;
+    top: 447px;
+    left: 175px;
+
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.started
+{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 175px;
+    top: 447px;
+    background: #000000;
+    color: white;
+    border-radius: 4px;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.group3{
+    background-image: url(imgs/play-button.png);
+    background-size: contain;
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 462px;
+    left: 395px;
+}
+
+.txt
+{
+    width: 111px;
+    position: absolute;
+    height: 28px;
+    top: 462px;
+    left: 438px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.star3
+{
+    background-image: url(imgs/star3.png);
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 569px;
+    left: 314.94px;
+    transform: rotate(145deg);
+    z-index: 1;
+
+}
+
+.group35924
+{
+    background-image: url(imgs/sc.png);
+    background-size: cover;
+    position: absolute;
+    width: 569px;
+    height: 357.74px;
+    top: 523.75px;
+    left: 141px;
+    z-index: 0  ;
+}
+/* mockups */
+.iphone
+{
+    background-image: url(imgs/mockups.png);
+    background-size: cover;
+    position: absolute;
+    width: 816.28px;
+    height:896.65px;
+    top: 66px;
+    left: 721px;
+    filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
+    z-index: 0;
+}
+
+.star4
+{
+    background-image: url(imgs/star3.png);
+    width: 48px;
+    height: 48px;
+    transform: rotate(43deg);
+
+    position: absolute;
+    top: 686.57px;
+    right: 460.57px;
+    z-index: 2;
+}
+
+/* features */
+
+.ellipse4
+{
+    position:absolute;
+    width: 383.17px;
+    height: 551.56px;
+    transform: rotate(135deg);
+    border: 1.5px solid black; 
+
+    border-radius: 50%;
+    top:911.7px;
+    left: 250px;
+}
+
+.ellipse5
+{
+    position:absolute;
+    width: 383.17px;
+    height: 551.56px;
+    border: 1.5px solid black; 
+    transform: rotate(135deg);
+    border-radius: 50%;
+
+    top:945.7px;
+    left: 230px;
+
+
+}
+
+.ellipse6
+{
+    position:absolute;
+    width: 383.17px;
+    height: 551.56px;
+    transform: rotate(135deg);
+    border: 1.5px solid black; 
+
+    border-radius: 50%;
+    top: 970.7px;
+    left: 200px;
+}
+
+.iphone2
+{
+    background-image: url(imgs/iPhone-13-Pro-Front.png);
+    background-size: cover;
+    position: absolute;
+    width: 259.25px;
+    height: 514.32px;
+    top: 971px;
+    left: 281px;
+}
+
+.ellipsered
+{
+
+position: absolute;
+width: 352.09px;
+height: 189.68px;
+left: 185.91px;
+top:1084.85px;
+
+background: #FF5555;
+filter: blur(41.5773px);
+transform: matrix(1, 0, 0, -1, 0, 0);
+z-index: -1;
+}
+
+.ellipseyellow{
+
+position: absolute;
+width: 359.53px;
+height: 189.68px;
+left: 145px;
+top: 929.39px;
+
+z-index: -2;
+background: #FDE598;
+filter: blur(41.5773px);
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+.star5
+{
+    position: absolute;
+
+    background-image: url(imgs/star2.png);
+    width: 48px;
+    height: 48px;
+    top: 990.71px;
+    left: 79.94px;
+}
+
+.feaatures
+{
+    scroll-behavior: smooth;    
+}
+.feature-list
+{
+    width: 359px;
+    height: 80px;
+    top: 971px;
+    left: 730px;
+    position: absolute;
+
+}
+
+.feature-list p{
+    color: #FF5555;
+    width: 116px;
+height: 28px;
+
+
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.16em;
+text-align: left;
+
+}
+
+.feature-list h2{
+ 
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+
+}
+
+.starb
+{
+    background-image: url(imgs/star5.png);
+    background-size: cover;
+    position: absolute;
+    /* border: #FF5555 2px solid; */
+    width: 24px;
+    height: 24px;
+    top: 1085px;
+    left: 730px;
+}
+
+.b-i h3{
+    position: absolute;
+    width: 275px;
+    height: 28px;
+    top: 1083px;
+    left: 762px;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    
+
+}
+
+.b-i p{
+    position: absolute;
+    width: 638px;
+    height: 56px;
+    top: 1123px;
+    left: 730px;
+    opacity: 50%;
+ 
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    
+}
+
+.ico2{
+    background-image: url(imgs/Icon.png);
+    background-size: cover;
+    position: absolute;
+    padding: -1px;
+    width: 24px;
+    height: 24px;
+    top: 1213px;
+    left: 730px;
+}
+
+.b-i2 h3{
+    position: absolute;
+    width: 175px;
+    height: 28px;
+    top: 1211px;
+    left: 762px;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+
+.b-i2 p{
+    width: 638px;
+    height: 56px;
+    position: absolute;
+    top: 1251px;
+    left: 730px;
+    opacity: 50%;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.ico3
+{
+    background-image: url(imgs/ico3.png);
+    background-size: cover;
+    position: absolute;   
+
+    width: 24px;
+    height: 24px;
+    top: 1341px;
+    left: 730px;
+    padding: -1px;
+
+}
+
+.b-i3 h3
+{
+    width: 175px;
+    height: 28px;
+    position: absolute;
+    top: 1339px;
+    left: 762px;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+
+.b-i3 p
+{
+    width: 638px;
+    height: 56px;
+    position: absolute;
+    top: 1379px;
+    left: 730px;
+    opacity: 50%;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+
+
+}
+.el1{
+    position: absolute;
+    width: 299.96px;
+    height: 157.83px;
+    left: 69px;
+    top: 1576.71px;
+
+    background: #FF5555;
+    filter: blur(41.5773px);
+z-index: -1;
+}
+
+.el2{
+
+
+position: absolute;
+width: 299.15px;
+height: 157.83px;
+left: 66px;
+top:1676.71px;
+
+background: #FDE598;
+filter: blur(41.5773px);
+z-index: -2;
+}
+
+.frame
+{
+    background-image: url(imgs/Frame.png);
+    background-size: cover;
+    width: 1090px;
+    height: 508px;
+
+    position: absolute;
+    top: 1676.71px;
+    left: 175px;
+
+}
+
+footer{
+    background-image: url(imgs/Group\ 1000002347.png);
+    background-size: cover;
+    position: absolute;
+    width: 1091px;
+    height: 406px;
+    top: 2339.71px;
+    left: 175px;
+    
+    
+}
